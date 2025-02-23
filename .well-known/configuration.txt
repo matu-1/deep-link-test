@@ -1,0 +1,31 @@
+* DEEP LINK (los archivos deben ser visibles en la url)
+IOS:
+<webdomain>/.well-known/apple-app-site-association
+ANDROID
+<webdomain>/.well-known/assetlinks.json
+
+link: <webdomain>?meetingId={id}
+
+Ejemplo:
+IOS:
+https://gsocials.com/.well-known/apple-app-site-association
+ANDROID
+https://gsocials.com/.well-known/assetlinks.json
+
+link: https://gsocials.com?meetingId=MTAyOQ==
+
+* Notificaciones
+Ejemplo:
+{
+  "message": {
+    "topic": "news",
+    "notification": {
+      "title": "Breaking News",
+      "body": "New news story available."
+    },
+    "data": {
+      "story_id": "story_12345",
+      "meetingId": "MTAzMg==" //Agregar este campo en data, para identificar la reunion
+    }
+  }
+}
