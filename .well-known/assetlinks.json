@@ -2,7 +2,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.centuri_app",
+      "package_name": "com.centuria_app",
       "sha256_cert_fingerprints":
       ["BE:A8:A9:28:25:89:11:AD:8B:10:84:4E:45:C9:BB:71:B5:19:E1:0C:24:6B:88:3E:47:BE:11:86:26:7E:D0:FC"]
     }
