@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.gsocial_mobile",
-    "sha256_cert_fingerprints":
-    ["20:3E:DB:0E:74:5E:E0:24:2D:39:4C:FB:F5:D7:F6:6C:D0:2D:5B:E8:04:CB:60:F2:2F:46:51:98:FC:D5:FD:3F","BE:A8:A9:28:25:89:11:AD:8B:10:84:4E:45:C9:BB:71:B5:19:E1:0C:24:6B:88:3E:47:BE:11:86:26:7E:D0:FC"]
-  }
-}]
